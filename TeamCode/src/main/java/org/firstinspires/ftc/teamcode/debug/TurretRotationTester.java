@@ -11,7 +11,7 @@ import org.firstinspires.ftc.teamcode.subSystems.Turret;
 public class TurretRotationTester extends LinearOpMode {
     public static double robotX = 72;
     public static double robotY = 72;
-    public static double robotR = 0;
+    public static double robotR = 0.5 * Math.PI;
     public static double targetX = 144;
     public static double targetY = 144;
 
