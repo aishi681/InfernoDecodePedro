@@ -1,15 +1,17 @@
 package org.firstinspires.ftc.teamcode.subSystems;
 
 import com.arcrobotics.ftclib.hardware.motors.Motor;
+import com.bylazar.configurables.annotations.Configurable;
 import com.jumpypants.murphy.util.RobotContext;
 import com.jumpypants.murphy.tasks.Task;
 import com.qualcomm.robotcore.hardware.HardwareMap;
 import com.qualcomm.robotcore.hardware.Servo;
 import org.firstinspires.ftc.teamcode.MyRobot;
 
+@Configurable
 public class Shooter {
-    public static double P = 0.1;
-    public static double I = 0.0;
+    public static double P = 0.2;
+    public static double I = 0.1;
     public static double D = 0.0;
 
     private Servo HOOD_SERVO;
